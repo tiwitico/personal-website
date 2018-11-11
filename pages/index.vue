@@ -20,8 +20,11 @@
         title: "Welcome to Tiwi's personal blog",
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-          { hid: 'description', name: 'description', content: 'Pratiwi Sukmawati\'s personal blog'}
-        ]
+          { hid: 'description', name: 'description', content: 'Pratiwi Sukmawati\'s personal blog'},
+        ],
+        bodyAttrs: {
+          style: 'height:100%;'
+        }
       }
     }
   }
@@ -49,7 +52,7 @@
 
   @media (max-width: 576px) {
     section{
-      padding: 150px 0;
+      padding: 190px 0;
     }
 
     h1{
@@ -63,7 +66,7 @@
 
   @media (min-width: 576px) and (max-width: 768px){
     section{
-      padding: 220px 0;
+      padding: 240px 0;
     }
 
     h1{
@@ -77,7 +80,7 @@
 
   @media (min-width: 768px) and (max-width: 992px){
     section{
-      padding: 210px 0;
+      padding: 240px 0;
     }
 
     h1{
@@ -91,7 +94,7 @@
 
   @media (min-width: 992px) {
     section{
-      padding: 250px 0;
+      padding: 280px 0;
     }
 
     h1{
