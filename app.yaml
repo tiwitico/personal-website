@@ -1,0 +1,28 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+skip_files: 
+- node_modules/
+- assets/
+- components/
+- layouts/
+- middleware/
+- pages/
+- plugins/
+- static/
+- store/
+- layouts/
+- .nuxt/
+handlers:
+
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+
+- url: /(.*)
+  static_files: dist/\1
+  upload: dist/(.*)
+
+- url: /_nuxt
+  static_dir: dist/_nuxt
+  secure: always
