@@ -26,3 +26,7 @@ handlers:
 - url: /_nuxt
   static_dir: dist/_nuxt
   secure: always
+
+- url: /(*)/(.*)
+  static_files: dist/\1/\2
+  upload: dist/(*)/(.*)
