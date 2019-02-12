@@ -1,6 +1,5 @@
 <template>
   <section>
-    <menu></menu>
     <div class="box-tagline">
       <div class="container">
         <h5>Hello, my name is</h5>
@@ -9,17 +8,36 @@
       </div>
     </div>
     <div class="box-description">
-      <p>I also work as Co-founder and Creative Director in Ordent, an IT consultant specialized in helping Businesses or Organizations on building their online representatives (personal website, product catalog, e-commerce, etc).<br><br><b>From napkin sketch to online</b>: we help our customers to design and validate their ideas with <a href="http://www.gv.com/sprint/" target="_blank"><b>Design Sprint</b></a>, <b>develop</b> it, test it, and then <b>deliver</b> their presences to online world. We always make sure the websites we made are <b>easy-to-use</b> for all people, including people with disabilities, because we are serious on building <b>accessible websites</b>.</p>
+      <p>I also work as Co-founder and Creative Director in Ordent, an IT consultant specialized in helping Businesses or Organizations on building their online presences (personal website, product catalog, e-commerce, etc).<br><br><b>From napkin sketch to online</b>: we help our customers to design and validate their ideas with <a href="http://www.gv.com/sprint/" target="_blank"><b>Design Sprint</b></a>, <b>develop</b> it, test it, and then <b>deliver</b> their presences to online world. We always make sure the websites we made are <b>easy-to-use</b> for all people, including people with disabilities, because we are serious on building <b>accessible websites</b>.</p>
     </div>
     <div class="box-tabs">
       <div class="container">
         <b-card no-body>
           <b-tabs pills card>
             <b-tab title="Business Model" active>
+              <h5>Version 1.1</h5>
+              <br>
+              <hr style="margin: 30px 0;">
+              <h5>Version 1.0</h5>
+              <br>
               <img src="/blog.jpg" alt="Business Model Canvas" style="width:100%;">
             </b-tab>
-            <b-tab title="Elevator Pitch (Coming Soon)" disabled>
-              <p>Ordent helps small, medium businesses, and also organizations that have no online representatives by help them to design and build their online representatives that is better than most of software agencies because ...</p>
+            <b-tab title="Elevator Pitch">
+              <p>"Ordent helps small, medium businesses, and also organizations that have no online presence to design and build their online strategy that is better than most of software agencies because we provide maintenance services, localization support, and cloud management services for hosting".</p>
+            </b-tab>
+            <b-tab title="User Persona & Empathy Map">
+              <p>In this section, I will focus with one of my customer segment, Non-Profit Organization.</p>
+              <h5>User Persona</h5>
+              <h5>Empathy Map</h5>
+            </b-tab>
+            <b-tab title="Customer Journey">
+
+            </b-tab>
+            <b-tab title="Interview Script">
+
+            </b-tab>
+            <b-tab title="Survey Script">
+
             </b-tab>
             <b-tab title="More to come..." disabled>
 
@@ -28,18 +46,14 @@
         </b-card>
       </div>
     </div>
-    <div class="footer">
-      <p>Copyright &#169; 2018 Tiwi / All Rights Reserved</p>
-    </div>
   </section>
 </template>
 
 <script>
-  import Menu from '~/components/Menu';
 
   export default {
     components: {
-      Menu
+
     },
     head () {
       return {
@@ -81,13 +95,22 @@
 
   .box-tabs{
     padding: 20px 0 100px 0;
+    .nav{
+      .nav-item{
+        a{
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+    }
     .tab-pane{
       padding: 30px 30px;
       p{
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 500;
         letter-spacing: 0.8px;
-        line-height: 32px;
+        line-height: 30px;
       }
     }
   }
