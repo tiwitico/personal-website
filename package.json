@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "server": "index.js"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",

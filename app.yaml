@@ -1,32 +1,21 @@
-runtime: python27
-api_version: 1
-threadsafe: yes
-skip_files: 
-- node_modules/
-- assets/
-- components/
-- layouts/
-- middleware/
-- pages/
-- plugins/
-- static/
-- store/
-- layouts/
-- .nuxt/
+runtime: nodejs10
+
+instance_class: F2
+
 handlers:
+  - url: /_nuxt
+    static_dir: .nuxt/dist/client
+    secure: always
 
-- url: /
-  static_files: dist/index.html
-  upload: dist/index.html
+  - url: /(.*\.(gif|png|jpg|ico|txt))$
+    static_files: static/\1
+    upload: static/.*\.(gif|png|jpg|ico|txt)$
+    secure: always
 
-- url: /(.*)
-  static_files: dist/\1
-  upload: dist/(.*)
+  - url: /.*
+    script: auto
+    secure: always
 
-- url: /_nuxt
-  static_dir: dist/_nuxt
-  secure: always
-
-- url: /(*)/(.*)
-  static_files: dist/\1/\2
-  upload: dist/(*)/(.*)
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'

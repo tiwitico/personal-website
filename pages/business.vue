@@ -136,7 +136,7 @@
                                 </h4>
                             </span>
                         </a>
-                        <b-modal centered ref="marketSizingModal" size="lg" hide-footer title="SWOT Analysis">
+                        <b-modal centered ref="marketSizingModal" size="lg" hide-footer title="Market Sizing">
                             <div class="d-block text-center">
                                 <h3>
                                     Top-Down Analysis
