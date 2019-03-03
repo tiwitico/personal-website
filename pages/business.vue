@@ -38,7 +38,7 @@
                         <b-modal centered ref="bmcModal" size="lg" hide-footer title="Business Model Canvas">
                             <p>Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models. It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers, and finances. It assists firms in aligning their activities by illustrating potential trade-offs.</p>
                             <div class="d-block text-center">
-                                <img src="/blog.jpg" alt="Business Model Canvas">
+                                <img src="@/static/blog.jpg" alt="Business Model Canvas">
                             </div>
                             <b-btn class="mt-3" variant="outline-danger" block @click="hideModal('bmcModal')">Close Me</b-btn>
                         </b-modal>
@@ -81,7 +81,7 @@
                         <b-modal centered ref="personaModal" size="lg" hide-footer title="Customer Persona">
                             <p>Customer persona is fictional characters designers use to reflect customer types, pinpointing who they are and what they do with products in relevant contexts.</p>
                             <div class="d-block text-center">
-                                <img src="/customer_persona-min.jpg" alt="Customer Persona">
+                                <img src="@/static/customer_persona-min.jpg" alt="Customer Persona">
                             </div>
                             <b-btn class="mt-3" variant="outline-danger" block @click="hideModal('personaModal')">Close Me</b-btn>
                         </b-modal>
@@ -107,25 +107,13 @@
                         <b-modal centered ref="empathyModal" size="lg" hide-footer title="Empathy Map">
                             <p>An empathy map is a collaborative tool teams can use to gain a deeper insight into their customers. Much like a user persona, an empathy map can represent a group of users, such as a customer segment. The empathy map was originally created by Dave Gray and has been gaining popularity with the agile community.</p>
                             <div class="d-block text-center">
-                                <img src="/empathy_map-min.jpg" alt="Empathy Map">
+                                <img src="@/static/empathy_map-min.jpg" alt="Empathy Map">
                             </div>
                             <b-btn class="mt-3" variant="outline-danger" block @click="hideModal('empathyModal')">Close Me</b-btn>
                         </b-modal>
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <a href="/business/bmc" class="business-grid-item business-grid-odd">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511 512">
-                                    <path d="m188 225h-7.5v-32.5c0-4.144531-3.359375-7.5-7.5-7.5-4.144531 0-7.5 3.355469-7.5 7.5v32.5h-30v-32.5c0-15.164062-12.335938-27.5-27.5-27.5h-50c-15.164062 0-27.5 12.335938-27.5 27.5v100c0 14.269531 5.730469 27.21875 15 36.691406v76.023438l-43.726562 65.101562c-.832032 1.234375-1.273438 2.691406-1.273438 4.183594v29.996094c0 4.144531 3.359375 7.5 7.5 7.5s7.5-3.355469 7.5-7.5v-27.714844l43.726562-65.101562c.832032-1.234376 1.273438-2.691407 1.273438-4.183594v-67.574219c6.824219 3.25 14.453125 5.074219 22.5 5.074219s15.675781-1.824219 22.5-5.074219v154.578125c0 3.226562 2.066406 6.09375 5.128906 7.113281l30 10c.785156.261719 1.585938.386719 2.371094.386719 3.140625 0 6.066406-1.988281 7.113281-5.128906 1.3125-3.929688-.8125-8.179688-4.742187-9.488282l-24.871094-8.289062v-159.902344c9.269531-9.472656 15-22.421875 15-36.691406v-52.5h30v264.496094c0 4.144531 3.355469 7.5 7.5 7.5 4.140625 0 7.5-3.355469 7.5-7.5v-234.496094h7.5c12.40625 0 22.5-10.09375 22.5-22.5s-10.09375-22.5-22.5-22.5zm-130-45h50c6.890625 0 12.5 5.605469 12.5 12.5v92.5h-75v-92.5c0-6.894531 5.605469-12.5 12.5-12.5zm-11.746094 120h73.492188c-3.484375 17.09375-18.636719 30-36.746094 30s-33.261719-12.90625-36.746094-30zm141.746094-45h-7.5v-15h7.5c4.136719 0 7.5 3.363281 7.5 7.5s-3.363281 7.5-7.5 7.5zm0 0" fill="#FFFFFF"/><path d="m83 150c28.949219 0 52.5-23.550781 52.5-52.5s-23.550781-52.5-52.5-52.5-52.5 23.550781-52.5 52.5 23.550781 52.5 52.5 52.5zm0-90c20.675781 0 37.5 16.820312 37.5 37.5 0 20.675781-16.824219 37.5-37.5 37.5-20.679688 0-37.5-16.824219-37.5-37.5 0-20.679688 16.824219-37.5 37.5-37.5zm0 0" fill="#FFFFFF"/><path d="m510.300781 62.195312-30-30c-1.40625-1.40625-3.3125-2.195312-5.300781-2.195312h-113.5v-7.5c0-12.40625-10.09375-22.5-22.5-22.5-12.410156 0-22.5 10.09375-22.5 22.5v67.5h-113.5c-1.988281 0-3.898438.789062-5.304688 2.195312l-30 30c-2.929687 2.929688-2.929687 7.679688 0 10.605469l30 30c1.40625 1.40625 3.316407 2.199219 5.304688 2.199219h113.5v339.496094c0 4.144531 3.355469 7.5 7.5 7.5h30c4.140625 0 7.5-3.355469 7.5-7.5v-399.496094h113.5c1.988281 0 3.894531-.789062 5.300781-2.195312l30-30c2.929688-2.929688 2.929688-7.679688 0-10.609376zm-304.195312 87.804688-22.5-22.5 22.5-22.5h110.394531v45zm140.394531 347h-15v-474.5c0-4.136719 3.363281-7.5 7.5-7.5 4.132812 0 7.5 3.363281 7.5 7.5zm125.390625-407h-110.390625v-45h110.390625l22.5 22.5zm0 0" fill="#FFFFFF"/>
-                                </svg>
-                                <h4 class="business-grid-item-text">
-                                    Customer Journey
-                                </h4>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <a @click="showModal('marketSizingModal')" class="business-grid-item business-grid-even">
+                        <a @click="showModal('marketSizingModal')" class="business-grid-item business-grid-odd">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 402.56 402.56" style="enable-background:new 0 0 402.56 402.56;" xml:space="preserve">
                                     <polygon points="38.613,234.88 38.4,274.56 96.64,274.56 116.693,265.173 9.6,372.48 39.68,402.56 147.2,295.253 137.813,316.587     137.813,373.76 177.493,374.187 177.493,234.88   " fill="#FFFFFF"/>
@@ -160,7 +148,7 @@
                         </b-modal> 
                     </div>
                     <div class="col-sm-12 col-md-4">
-                        <a @click="showModal('swotModal')" class="business-grid-item business-grid-odd">
+                        <a @click="showModal('swotModal')" class="business-grid-item business-grid-even">
                             <span>
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -205,10 +193,112 @@
                         </a>
                         <b-modal centered ref="swotModal" size="lg" hide-footer title="SWOT Analysis">
                             <div class="d-block text-center">
-                                <img src="/SWOT_analysis-min.jpg" alt="SWOT Analysis">
+                                <img src="@/static/SWOT_analysis-min.jpg" alt="SWOT Analysis">
                             </div>
                             <b-btn class="mt-3" variant="outline-danger" block @click="hideModal('swotModal')">Close Me</b-btn>
                         </b-modal>                        
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a href="https://goo.gl/forms/vwwmzNeXcULdaX302" target="_blank" class="business-grid-item business-grid-odd">
+                            <span>
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve">
+                                    <rect x="95.998" y="32" width="16" height="16"/>
+                                    <rect x="127.998" y="32" width="16" height="16"/>
+                                    <rect x="159.998" y="32" width="16" height="16"/>
+                                    <rect x="295.998" y="32" width="152" height="16"/>
+                                    <rect x="319.998" y="120" width="128" height="16"/>
+                                    <rect x="383.998" y="152" width="64" height="16"/>
+                                    <rect x="383.998" y="184" width="64" height="16"/>
+                                    <rect x="383.998" y="216" width="64" height="16"/>
+                                    <rect x="319.998" y="248" width="128" height="16"/>
+                                    <rect x="319.998" y="376" width="128" height="16"/>
+                                    <rect x="383.998" y="280" width="64" height="16"/>
+                                    <rect x="383.998" y="312" width="64" height="16"/>
+                                    <rect x="383.998" y="344" width="64" height="16"/>
+                                    <rect x="383.998" y="408" width="64" height="16"/>
+                                        <path d="M471.998,0h-400c-4.424,0-8,3.584-8,8v64v48h-56c-3.08,0-5.872,1.76-7.208,4.536c-1.328,2.768-0.96,6.064,0.96,8.464
+                                            l30.248,37.808V208c0,19.312,13.768,35.472,32,39.192V296h-56c-3.08,0-5.872,1.76-7.208,4.536c-1.328,2.768-0.96,6.064,0.96,8.464
+                                            l30.248,37.808V384c0,19.312,13.768,35.472,32,39.192V472c0,4.416,3.576,8,8,8h368c22.056,0,40-17.944,40-40V72V8
+                                            C479.998,3.584,476.422,0,471.998,0z M47.998,208v-40c0-1.816-0.616-3.576-1.752-5l-21.6-27h47.352h176c13.232,0,24,10.768,24,24
+                                            v48c0,13.232-10.768,24-24,24h-176C58.766,232,47.998,221.232,47.998,208z M47.998,384v-40c0-1.816-0.616-3.576-1.752-5l-21.6-27
+                                            h47.352h176c13.232,0,24,10.768,24,24v48c0,13.232-10.768,24-24,24h-176C58.766,408,47.998,397.232,47.998,384z M463.998,440
+                                            c0,13.232-10.768,24-24,24h-360v-40h168c22.056,0,40-17.944,40-40v-48c0-22.056-17.944-40-40-40h-168v-48h168
+                                            c22.056,0,40-17.944,40-40v-48c0-22.056-17.944-40-40-40h-168V80h384V440z M463.998,64h-384V16h384V64z"/>
+                                    <rect x="71.998" y="160" width="64" height="16"/>
+                                    <rect x="151.998" y="160" width="40" height="16"/>
+                                    <rect x="207.998" y="160" width="40" height="16"/>
+                                    <rect x="71.998" y="192" width="40" height="16"/>
+                                    <rect x="127.998" y="192" width="120" height="16"/>
+                                    <rect x="183.998" y="368" width="64" height="16"/>
+                                    <rect x="127.998" y="368" width="40" height="16"/>
+                                    <rect x="71.998" y="368" width="40" height="16"/>
+                                    <rect x="207.998" y="336" width="40" height="16"/>
+                                    <rect x="71.998" y="336" width="120" height="16"/>
+                                </svg>
+                                <h4 class="business-grid-item-text">
+                                    Survey Question
+                                </h4>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a @click="showModal('swotModal')" class="business-grid-item business-grid-even">
+                            <span>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <path d="M501.801,466.153H61.144l55.608-61.873c4.883,2.589,10.446,4.062,16.348,4.062c13.586,0,25.382-7.781,31.188-19.115
+                                        l56.818,14.347c1.503,17.938,16.574,32.078,34.895,32.078c19.314,0,35.027-15.713,35.027-35.027
+                                        c0-10.651-4.784-20.201-12.31-26.63l46.335-110.741l32.997,84.143c-7.887,6.429-12.936,16.213-12.936,27.157
+                                        c0,19.314,15.714,35.027,35.028,35.027s35.027-15.713,35.027-35.027c0-3.946-0.666-7.738-1.875-11.28l40.474-40.476
+                                        c3.983-3.983,3.983-10.441,0-14.425c-3.983-3.982-10.441-3.982-14.424,0l-38.182,38.182c-5.859-4.411-13.141-7.029-21.023-7.029
+                                        c-1.082,0-2.151,0.056-3.209,0.153l-40.571-103.457l40.757-97.409c0.997,0.086,2.003,0.139,3.022,0.139
+                                        c16.219,0,29.893-11.081,33.861-26.07h64.21c5.633,0,10.199-4.567,10.199-10.199c0-5.632-4.566-10.199-10.199-10.199h-64.971
+                                        c-4.753-13.712-17.79-23.588-33.099-23.588c-19.314,0-35.028,15.713-35.028,35.028c0,11.011,5.112,20.845,13.081,27.272
+                                        l-32.53,77.746l-47.52-121.177c7.14-6.417,11.641-15.717,11.641-26.051c0-19.315-15.714-35.028-35.028-35.028
+                                        S219.73,42.399,219.73,61.714c0,8.356,2.946,16.036,7.847,22.063l-84.08,127.394c-3.644-1.288-7.561-1.996-11.64-1.996
+                                        c-4.185,0-8.199,0.74-11.922,2.092l-72.226-95.035V12.062c0-5.632-4.566-10.199-10.199-10.199S27.31,6.43,27.31,12.062v100.287
+                                        H10.199C4.566,112.348,0,116.916,0,122.548c0,5.632,4.566,10.199,10.199,10.199h17.112v102.502H10.199
+                                        C4.566,235.249,0,239.816,0,245.448c0,5.632,4.566,10.199,10.199,10.199h17.112v104.986H10.199C4.566,360.633,0,365.2,0,370.832
+                                        c0,5.632,4.566,10.199,10.199,10.199h17.112v95.321c0,5.632,4.566,10.199,10.199,10.199h87.873v13.387
+                                        c0,5.632,4.566,10.199,10.199,10.199c5.633,0,10.199-4.567,10.199-10.199v-13.387h102.502v13.387
+                                        c0,5.632,4.566,10.199,10.199,10.199s10.199-4.567,10.199-10.199v-13.387h104.984v13.387c0,5.632,4.566,10.199,10.199,10.199
+                                        s10.199-4.567,10.199-10.199v-13.387h107.735c5.633,0,10.199-4.567,10.199-10.199S507.434,466.153,501.801,466.153z
+                                        M380.143,359.926c8.065,0,14.629,6.563,14.629,14.63c0,8.065-6.563,14.629-14.629,14.629c-8.067,0-14.63-6.563-14.63-14.629
+                                        C365.513,366.489,372.076,359.926,380.143,359.926z M380.142,89.297c8.067,0,14.629,6.563,14.629,14.63
+                                        c0,8.067-6.563,14.63-14.629,14.63c-8.067,0-14.63-6.563-14.63-14.63C365.512,95.86,372.075,89.297,380.142,89.297z
+                                        M133.1,387.943c-8.067,0-14.629-6.563-14.629-14.63c0-8.066,6.563-14.629,14.629-14.629s14.629,6.563,14.629,14.629
+                                        C147.728,381.381,141.166,387.943,133.1,387.943z M256,415.254c-8.067,0-14.629-6.563-14.629-14.629
+                                        c0-8.067,6.563-14.63,14.629-14.63s14.629,6.563,14.629,14.63C270.629,408.691,264.067,415.254,256,415.254z M254.759,47.089
+                                        c8.067,0,14.63,6.563,14.63,14.63s-6.563,14.63-14.63,14.63s-14.629-6.563-14.629-14.63S246.692,47.089,254.759,47.089z
+                                        M131.857,229.578c8.068,0,14.63,6.562,14.63,14.629s-6.563,14.63-14.63,14.63s-14.629-6.563-14.629-14.63
+                                        C117.229,236.141,123.792,229.578,131.857,229.578z M47.71,149.948l55.91,73.566c-4.263,5.802-6.789,12.957-6.789,20.692
+                                        c0,19.315,15.713,35.028,35.027,35.028c19.314,0,35.028-15.713,35.028-35.028c0-7.832-2.584-15.071-6.945-20.911l84.539-128.09
+                                        c3.252,1,6.703,1.541,10.278,1.541c1.65,0,3.272-0.123,4.862-0.345l54.735,139.574l-54.336,129.86
+                                        c-1.32-0.151-2.66-0.238-4.02-0.238c-13.145,0-24.617,7.282-30.607,18.021l-57.53-14.528
+                                        c-2.093-17.328-16.88-30.805-34.764-30.805c-19.314,0-35.027,15.713-35.027,35.027c0,5.995,1.516,11.642,4.182,16.581
+                                        L47.71,450.583V149.948z"/>
+                                    <path d="M488.529,272.375c-3.983-3.983-10.441-3.983-14.424,0l-8.07,8.07c-3.983,3.984-3.983,10.441,0,14.425
+                                        c1.992,1.991,4.602,2.987,7.212,2.987c2.61,0,5.221-0.996,7.212-2.987l8.07-8.07C492.511,282.816,492.511,276.359,488.529,272.375
+                                        z"/>
+                            </svg>
+                                <h4 class="business-grid-item-text">
+                                    Value Curve
+                                </h4>
+                            </span>
+                        </a>
+                        <b-modal centered ref="swotModal" size="lg" hide-footer title="Value Curve">
+                            <div class="d-block">
+                                <p>The concept of a Value Curve is to use a diagram to compare products on a range of factors by rating them on a scale from low to high. These can be features, benefits or ways in which a product is distributed or consumed. The combination of these various factors defines the product or service.</p>
+                                <p>In this occasion, I would like to share my value curve analysis about my company, Ordent. I compare with 2 agencies in Jakarta and Bandung, and also a web developer freelancer that already works for 4 years.</p>
+                                <p>Blue represents Ordent, my company. Red represents a big software agency in Bandung, Indonesia. Yellow represents a freelancer that works in my coworking space. And green represents a small agency in Jakarta, Indonesia.</p>
+                                <img src="@/static/value_curve.png" alt="Value Curve" style="max-width:50% !important;">
+                            </div>
+                            <b-btn class="mt-3" variant="outline-danger" block @click="hideModal('swotModal')">Close Me</b-btn>
+                        </b-modal>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="@/static/more_to_come.png" alt="More to come" style="display:block;margin:3em auto 0 auto;max-height: 25%;">
                     </div>
                 </div>
             </div>
@@ -251,7 +341,7 @@
 
 <style lang="scss">
     #business-header{
-        background: url('/business-bg.jpg') no-repeat center center;
+        background: url('~static/business-bg.jpg') no-repeat center center;
         background-size: cover;
         color: #333;
         min-height: 3em;

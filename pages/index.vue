@@ -17,7 +17,7 @@
               <p>
                 Front-End Poet, or publicly known as Front-End Developer, helps people to make their dream websites come true.<br>Why a Poet though? Building a website is like writing a poetry. Websites should express what the owner feels, imagines, emotional self-expression, high art, just like poetry.
               </p>
-              <img src="/name.png" alt="Pratiwi Sukmawati" draggable="false">
+              <img src="@/static/name.png" alt="Pratiwi Sukmawati" draggable="false">
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@
   }
 
   #landing-bg-1{
-    background: url('/landing-bg-1.jpg') no-repeat center center;
+    background: url('~static/landing-bg-1.jpg') no-repeat center center;
     background-size: cover;
     color: #333;
     font-family: 'Raleway', 'sans-serif';

@@ -8,8 +8,8 @@
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav class="ml-auto">
                     <li class="nav-item"><nuxt-link class="nav-link" to="/">Home</nuxt-link></li>
-                    <li class="nav-item"><nuxt-link class="nav-link" to="/about">About</nuxt-link></li>
-                    <li class="nav-item"><nuxt-link class="nav-link disabled" to="/award">Award Project</nuxt-link></li>
+                    <!-- <li class="nav-item"><nuxt-link class="nav-link" to="/about">About</nuxt-link></li> -->
+                    <li class="nav-item"><nuxt-link class="nav-link" to="/award">Award Project</nuxt-link></li>
                     <li class="nav-item"><nuxt-link class="nav-link" to="/business">Business</nuxt-link></li>
                 </b-navbar-nav>
             </b-collapse>
